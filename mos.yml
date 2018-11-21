@@ -18,8 +18,9 @@ config_schema:
   - ["mjs", "o", {title: "mJS settings"}]
   - ["mjs.generate_jsc", "b", true, {title: "Generate .jsc file when executing any .js file"}]
 modules:
-  - origin: https://github.com/cesanta/mjs
+  - origin: https://github.com/marciopamplona/mjs
     name: mjs_module
+    version: mfp-master
 
 tags:
   - js      # Supports JavaScript
